@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">まとめてアンインストール</string>
+    <string name="all_check">全選択</string>
+    <string name="all_uncheck">全選択解除</string>
+    <string name="label_search_result">\&quot;%s\&quot;の検索結果</string>
+</resources>

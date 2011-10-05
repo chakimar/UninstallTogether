@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<EditText android:id="@+id/et_search" android:layout_width="fill_parent"
+			android:inputType="text" android:layout_height="wrap_content"
+			android:layout_weight="0.8">
+		</EditText>
+		<ImageButton android:id="@+id/btn_search"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="0.1" android:src="@drawable/magnifying_glass">
+		</ImageButton>
+		<ImageButton android:id="@+id/btn_uninstall"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="0.1" android:src="@drawable/trash_stroke">
+		</ImageButton>
+	</LinearLayout>
+	<TextView android:id="@+id/tv_search_key" android:layout_height="wrap_content"
+		android:layout_width="fill_parent"></TextView>
+	<ListView android:id="@+id/lv_packageNames"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	</ListView>
+</LinearLayout>
